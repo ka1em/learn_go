@@ -2,11 +2,13 @@ package main
 
 import (
 	"fmt"
- 	"bytes"
-	"unicode"
+	//"bytes"
+	//"unicode"
+	"strings"
 )
 
 func del_whitespace(s string) string {
+	/*
 	var buffer bytes.Buffer
 	skip := true
 	for _, char := range s {
@@ -25,6 +27,8 @@ func del_whitespace(s string) string {
 		s = s[:len(s)-1]
 	}
 	return s
+    */
+	return strings.Join(strings.Fields(strings.TrimSpace(s)), " ")
 }
 
 func main() {
