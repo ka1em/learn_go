@@ -19,6 +19,7 @@ func main() {
 				continue
 			}
 			countLines(f, counts)
+			f.Close()
 		}
 	}
 	for line, n := range counts {
