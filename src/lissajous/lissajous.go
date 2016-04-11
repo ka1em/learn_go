@@ -23,7 +23,7 @@ func main()  {
 }
 
 // lissajou ...
-func lissajous(out io.Write)  {
+func lissajous(out io.Writer)  {
 	const (
 		cycles = 5				// number of complete x oscillator revolutions
 		res    = 0.001  		// angular resolution
