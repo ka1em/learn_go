@@ -25,11 +25,11 @@ func main()  {
 // lissajou ...
 func lissajous(out io.Writer)  {
 	const (
-		cycles = 5				// number of complete x oscillator revolutions
-		res    = 0.001  		// angular resolution
-		size   = 100
+		cycles  = 5				// number of complete x oscillator revolutions
+		res     = 0.001  		// angular resolution
+		size    = 100
 		nframes = 64
-		delay = 8
+		delay   = 8
 	)
 
 	freq := rand.Float64() * 3.0
