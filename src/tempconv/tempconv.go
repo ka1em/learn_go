@@ -12,7 +12,7 @@ const (
 )
 
 //  ...
-func (c Celisus) String() string {
+func (c Celsius) String() string {
 	return fmt.Sprintf("%gC", c)
 }
 
